@@ -1,4 +1,4 @@
-#Git and Github
+# Git and Github
 
 1. Initialize a git repository.
    `git init`
