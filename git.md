@@ -65,7 +65,30 @@
     ```
     git merge branchname
     ```
-17. Add the upstream url (url from where you forked a repo)
+17. Add the upstream url (url from where you forked a repo).
     ```
     git add upstream upstreamurl
     ```
+18. Force push (when repo has more thing than your git folder).
+    ```
+    git push origin master -f
+    ```
+19. Fetch all changes from upstream.
+    ```
+    git fetch --all --prune
+    git reset --hard upstream/main
+    ```
+20. Get or Pull the changes from upstream.
+    ```
+    git pull upstream main
+    ```
+21. Merge multiple commits usign rebase.
+    ```
+    git rebase -i commithash
+    ```
+    All the commit above commithash will go to rebase. Use Pick (p) and Squash (s) to merge commits. all the squash commit will be merged to first Pick commit above them.
+22. Hard reset to remove commit.
+    ```
+    git reset --hard commithash
+    ```
+23. When multiple commits are made from different branches or by user to a common line or code creates conflict which can be resolved using github desktop.
