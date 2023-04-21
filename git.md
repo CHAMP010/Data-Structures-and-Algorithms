@@ -29,9 +29,10 @@
 14. Get all the Links to remote github repo.
     `git remote -v`
 15. Create branch and Commit changes on new branch.
-    ````git branch branchname
-    git checkout branchname```
-    ````
+    ```
+    git branch branchname
+    git checkout branchnames
+    ```
 16. Merge the branch into main.
     `git merge branchname`
 17. Add the upstream url (url from where you forked a repo)
